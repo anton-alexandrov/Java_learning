@@ -5,7 +5,13 @@ public class Square {
     public double l;
 
     public Square(double l) {
-        this.l = l;
+        if (l<0) {
+            System.out.println("incorrect value");
+        }
+        else{
+            this.l = l;
+        }
+
     }
 
     public double area () {

@@ -9,5 +9,7 @@ public class SimpleTestAutomation {
 
         Rectangle r = new Rectangle(3,4);
         System.out.println("Area of rectangle with sides: " + r.a + " and "+ r.b +" is "+r.area());
+        System.out.println(r.perimeter());
+
     }
 }
